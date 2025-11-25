@@ -1,0 +1,126 @@
+##Section A: Database Fundamentals
+
+1.Main types of databases:
+Relational (RDBMS), NoSQL (document, key-value, column, graph), Cloud databases, Data warehouses.
+
+2.RDBMS:
+A system that stores data in tables with rows and columns and lets you manage it using SQL.
+
+3. Primary key & foreign key:
+Primary key: Unique identifier for a row in a table.
+Foreign key: A field in one table that links to the primary key in another table.
+
+4.Database normalization:
+Organizing data to reduce duplicates and improve efficiency.
+
+5.Database schema:
+The structure of a database (tables, columns, relationships).
+
+6.Structured, semi-structured, unstructured data:
+Structured: Organized in tables (like SQL).
+Semi-structured: Some organization, like JSON or XML.
+Unstructured: No fixed format, like videos, images, or text files.
+
+7.Fact table vs Dimension table:
+Fact table: Stores measurable data (sales, revenue).
+Dimension table: Stores descriptive data (customer, product info).
+
+8.Data model:
+A plan for how data is stored and related. Helps design databases correctly.
+
+9.Database vs Data warehouse vs Data lake:
+Database: Current, transactional data.
+Data warehouse: Large, cleaned, historical data for analysis.
+Data lake: Raw data stored in any format.
+
+10.Data mart vs Data warehouse:
+Data mart: Smaller, focused on a department or topic.
+Data warehouse: Company-wide, stores all cleaned data.
+
+
+
+### Section B: SQL and Data Handling
+
+11.Query language & SQL:
+A way to ask databases for information. SQL is common because it’s standard and easy to use.
+
+12.Indexes:
+Special lookup tables that make searching data faster.
+
+13.Transactions & ACID:
+Transaction: A group of actions done together in a database.
+
+14.ACID: Ensures transactions are reliable:
+A: Atomic (all or nothing)
+C: Consistent
+I: Isolated (independent)
+D: Durable (saved permanently)
+
+14.Database engine:
+The software that reads/writes data in a database. Faster engines = better performance.
+
+15.Views, stored procedures, triggers:
+View: Virtual table based on a query.
+Stored procedure: Pre-written SQL code you can run multiple times.
+Trigger: Code that runs automatically when data changes.
+
+16.ETL vs ELT:
+ETL: Extract → Transform → Load (clean first, then store).
+ELT: Extract → Load → Transform (store first, then clean).
+
+17.Batch vs stream processing:
+Batch: Process data in chunks.
+Stream: Process data in real-time as it comes.
+
+18.Joins in SQL:
+Combine data from multiple tables. Types:
+INNER JOIN: Only matching rows
+LEFT JOIN: All rows from left + matches from right
+RIGHT JOIN: All rows from right + matches from left
+FULL JOIN: All rows from both tables
+
+19.Referential integrity:
+Ensures foreign keys match primary keys, keeping data consistent.
+
+20.Data redundancy:
+Storing the same data multiple times. Wastes space and can slow performance.
+
+
+
+##Section C: Data Management and Analytics
+
+21.Cloud vs on-premise database:
+Cloud: Access over the internet, scalable, managed by provider.
+On-premise: Installed on company servers, more control, more maintenance.
+
+22.Data governance:
+Rules and processes to manage data properly and safely.
+
+23.Data integrity:
+Keeping data accurate and reliable. Use validation, constraints, backups.
+
+24.Data quality:
+Data should be accurate, complete, and timely. Important for correct analysis.
+
+25.Data Analyst role:
+Collect, clean, analyze, and report insights from data.
+
+26.Database Administrator (DBA) tasks:
+Manage, secure, backup, and optimize databases.
+
+27.Steps in designing a data pipeline:
+Collect → Clean → Transform → Load → Analyze data.
+
+28.Challenges with large databases:
+Performance issues, storage limits, backups, data consistency, security.
+
+29.Popular database platforms & use cases:
+MySQL/PostgreSQL: Web apps
+Oracle: Large enterprises
+Snowflake: Cloud analytics
+MongoDB: NoSQL document storage
+
+30. Data storage formats:
+CSV: Simple, easy to read
+JSON: Semi-structured
+Parquet/Avro: Optimized for analytics, faster queries
